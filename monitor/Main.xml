@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MAIN>
+  <!--界面倒计时-->
+  <COUNTDOWN>120</COUNTDOWN>
+  <!--免责声明页面下一步倒计时-->
+  <COUNTDISCLAIMER>0</COUNTDISCLAIMER>
+  <!--二维码界面是否显示,0显示,1不显示-->
+  <QRCODE>1</QRCODE>
+  <!--logo-->
+  <LOGO>images\LOGO.png</LOGO>
+  <!--主窗体图片-->
+  <MAINIMG>images\left7.png</MAINIMG>
+  <!--房间显示,0房间号,1房间名称-->
+  <ROOM>0</ROOM>
+  <!--押金,格式为:0.00-->
+  <DEPOSIT>0.02</DEPOSIT>
+  <!--支付测试金额,0为正式金额，1为测试金额-->
+  <ISPAY>1</ISPAY>
+  <!--小票机串口-->
+  <Print_Com>COM5</Print_Com>
+  <!--小票机类型-->
+  <Print_Type>New</Print_Type>
+  <!--酒店帮后台API接口地址-->
+  <PMSAPIURL>http://139.199.194.37:8089/</PMSAPIURL>
+  <!--用户名-->
+  <PMSUSERNAME>admin</PMSUSERNAME>
+  <!--密码-->
+  <PMSPASSWORD>123qwe</PMSPASSWORD>
+  <!--机器编码-->
+  <MACHINE_CODE>023AA102AH001RV001T0000</MACHINE_CODE>
+  <!--酒店编码-->
+  <HOTEL_ID>805300</HOTEL_ID>
+  <!--离店退房时间-->
+  <HotelCheckOutTime>14:00:00</HotelCheckOutTime>
+  <!--酒店名称-->
+  <HotelName>82精品.酒店</HotelName>
+  <!--PMS厂商-->
+  <PMLTYPE>ZHUZHER</PMLTYPE>
+  <!--最迟入住时间-->
+  <DeadlineCheckInTime>06:00:00</DeadlineCheckInTime>
+  <!--钟点房最迟入住时间，准确按照HH:mm:ss格式配置-->
+  <HourRoomDeadLine>18:00:00</HourRoomDeadLine>
+  <!--钟点房最早入住时间，准确按照HH:mm:ss格式配置-->
+  <HourRoomStartTime>06:00:00</HourRoomStartTime>
+  <!--钟点房最晚入住时间，准确按照HH:mm:ss格式配置-->
+  <HourRoomCheckOutTime>18:00:00</HourRoomCheckOutTime>
+  <!--支付方式，工行为Icbc，银联为Union-->
+  <PayWay>Union</PayWay>
+  <!--最多入住天数-->
+  <MostCheckInDays>60</MostCheckInDays>
+  <!--团队入住是否需要添加输入手机号流程  0不需要 1 需要-->
+  <TeamInputPhone>1</TeamInputPhone>
+  <!--是否开启钟点房功能，1为开启，其余为不开启-->
+  <HourRoomLock>1</HourRoomLock>
+  <!--退房短信接收人-->
+  <CheckOutTelPhone></CheckOutTelPhone>
+  <!--是否启用团住功能 1为启用 其他不启用-->
+  <TeamControl>0</TeamControl>
+  <!--是否启用银行卡功能 0为启用 其他不启用-->
+  <PAYBank>0</PAYBank>
+  <!--语音播报时是否朗读房间号 1为启用 其他不启用-->
+  <IfVoiceIncludesRoomNumber>0</IfVoiceIncludesRoomNumber>
+  <!--灯控板端口号-->
+  <LightCOMName>COM8</LightCOMName>
+  <!--选择房型时按钮字体大小，小数点后两位数字，默认为21.75，武汉绿地酒店请设为13.50或更小-->
+  <ChooseRoomButtonFontSize>21.75</ChooseRoomButtonFontSize>
+  <!--是否显示打印发票按钮，0显示，1不显示-->
+  <ISPrintInvoiceBT>1</ISPrintInvoiceBT>
+  <!--实时获取房价，当前仅住哲新价格体系配成1，其余默认为0-->
+  <RealTime>0</RealTime>
+  <!--续住房价方案-->
+  <KeepRoomPlan>系统房价</KeepRoomPlan>
+  <!--是否发送短信，0发送，1不发送-->
+  <ISSendSms>0</ISSendSms>
+  <!--酒店地址-->
+  <HotelAddress>xx中心xx楼xx栋xx号</HotelAddress>
+  <!--酒店联系电话-->
+  <HotelPhone>0888-12345678</HotelPhone>
+  <!--是否打开协议入住，1打开-->
+  <ContractControl>0</ContractControl>
+  <!--区域-民族管控，(多个按英文逗号","分隔)。1、指定区域的民族不能不办理：“新疆-维吾尔族”；2、指定区域不能办理“新疆-”；2、指定名族不能办理“-维吾尔族”-->
+  <stopBL>武汉-</stopBL>
+  <!--预定单是否按姓名查询,1为允许使用姓名查询，0未不允许-->
+  <IsByName>1</IsByName>
+  <!--续住校验客人的手机号，暂支持绿云pms 0不开启 1开启-->
+  <ContinueLiveCheckPhone>0</ContinueLiveCheckPhone>
+  <!--主程序要用的小票机-->
+  <Print>PRO</Print>
+  <!--协议入住：1：只用单位名称和英文名称查询，2：只用单位编码查询，其他：所有查询都开启-->
+  <OpenDealchckIn>2</OpenDealchckIn>
+</MAIN>
